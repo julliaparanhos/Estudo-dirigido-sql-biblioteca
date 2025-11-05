@@ -1,0 +1,1 @@
+SELECT editora_id, AVG(ano_publicacao) FROM livros GROUP BY editora_id;
